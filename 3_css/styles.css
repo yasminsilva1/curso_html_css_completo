@@ -6,3 +6,8 @@ body {
 h3 {
 	color: green;
 }
+
+/* 5 - ordem do css */
+p {
+  color: blueviolet;
+}
