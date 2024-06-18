@@ -11,3 +11,18 @@ h3 {
 p {
   color: blueviolet;
 }
+
+/* 7 - classes */
+.paragraph {
+  background-color: #000;
+  color: aqua;
+  padding: 5px;
+}
+
+/* 8 - IDs */
+#exclusive-title {
+  background-color: purple;
+  color: yellow;
+  padding: 10px;
+  font-size: 40px;
+}
