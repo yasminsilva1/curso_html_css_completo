@@ -39,3 +39,51 @@ h2 {
 #algum-titulo {
   border-bottom: 4px solid green;
 }
+
+/* 10 - nome de cor */
+.color-name {
+	color: crimson;
+}
+
+/* 11 - cores hexadecimais */
+.color-hex {
+	color: #55a398;
+}
+
+.color-hex2 {
+	color: #0f1f5f;
+}
+
+/* 12 - mais sobre hexadecimal */
+.simple-hex {
+	/* color: #555555; */
+	color: #555;
+}
+
+.simple-hex2 {
+	/* color: #aa55ff; */
+	color: #a5f;
+}
+
+/* 13 - rgb */
+.rgb {
+  color: rgb(255, 0, 0);
+}
+
+.mixed-rgb2 {
+  color: rgb(97, 0, 84);
+}
+
+/* 14 - rgba */
+.rgba {
+  color: rgba(156, 6, 6, 0.3);
+}
+
+/* 15 - hsl */
+.hsl {
+  color: hsl(100, 38%, 22%);
+}
+
+.hsl2 {
+  color: hsl(255, 60%, 44%);
+}
