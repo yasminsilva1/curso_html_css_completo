@@ -28,9 +28,9 @@ h3 {
 }
 
 /* 9 - ordem dos seletores */
-h2 {
+/* h2 {
   border-bottom: 2px solid red;
-}
+} */
 
 .titulo {
   border-bottom: 3px solid blue;
@@ -271,4 +271,38 @@ h2 {
   width: 200px;
   height: 300px;
   box-sizing: border-box;
+}
+
+/* 31 - text alignment */
+.text-aligned {
+  text-align: right;
+}
+
+.container-center {
+  border: 2px solid #0f0;
+  text-align: center;
+  width: 300px;
+}
+
+/* 32 - text decoration */
+.underline {
+  text-decoration: underline;
+}
+
+.line-trough {
+  text-decoration: line-through;
+}
+
+.remove-underline {
+  text-decoration: none;
+  color: #f00;
+}
+
+/* 33 - text transform */
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
 }
