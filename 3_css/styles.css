@@ -369,3 +369,25 @@ h3 {
 .big {
   font-size: 78px;
 }
+
+/* 39 - display */
+.inline-box {
+  /* por padrão a div é display: block; */
+  height: 50px;
+  width: 50px;
+  background-color: #4f8;
+  margin: 10px;
+  display: inline-block;
+}
+
+.block {
+  background-color: #333;
+  margin: 5px;
+  display: block;
+}
+
+/* 40 - escondendo elementos com display */
+/* Quando quisermos esconder elementos html, basta adicionar a propriedade display: none; isso esconde o elemento, porém ele ainda consta no html */
+.invisible {
+  display: none;
+}
