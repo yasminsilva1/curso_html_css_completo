@@ -8,9 +8,9 @@ h3 {
 }
 
 /* 5 - ordem do css */
-p {
+/* p {
   color: blueviolet;
-}
+} */
 
 /* 7 - classes */
 .paragraph {
@@ -86,4 +86,55 @@ h2 {
 
 .hsl2 {
   color: hsl(255, 60%, 44%);
+}
+
+/* 16 - background-color */
+.bg {
+  background-color: #000;
+  color: #ff0;
+}
+
+.bg2 {
+  background-color: rgb(200, 20, 40);
+  color: #00eaff;
+}
+
+/* 17 - opacity no background */
+.bg-opacity {
+  /* o opacity altera tanto a opacidade do background como a opacidade da cor da fonte */
+  background-color: #0f0;
+  opacity: .2;
+}
+
+.bg-opacity2 {
+  background-color: #999;
+  color: #000;
+  opacity: .8;
+}
+
+/* 18 - rgba com opacidade */
+.rgba-opacity {
+  /* o rgba muda apenas a opacidade do background, mantendo a cor da fonte */
+  background-color: rgba(90, 120, 20, 0.2);
+  color: #000;
+}
+
+/* 19 - background-images */
+.bg-image {
+  background-image: url("./img/nature.jpg");
+  color: #fff;
+  padding: 10px;
+}
+
+/* 20 - centralizar img de background */
+.not-centered-bg,
+.centered-bg {
+  height: 400px;
+  width: 400px;
+  background-image: url("./img/bridge.jpg");
+}
+
+.centered-bg {
+  background-position: center;
+  background-size: cover;
 }
