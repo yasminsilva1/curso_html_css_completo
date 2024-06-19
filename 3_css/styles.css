@@ -311,3 +311,61 @@ h3 {
 .spacing {
   letter-spacing: 14px;
 }
+
+/* 35 - fontes */
+.serif {
+  font-family: Georgia;
+}
+
+.sans-serif {
+  font-family: Helvetica;
+}
+
+.monospace {
+  font-family: "Courier New";
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
+
+/* 36 - esilo das fontes */
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+/* 37 - peso da fonte */
+.thin,
+.bold,
+.bolder {
+  font-family: Helvetica;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 900;
+}
+
+/* 38 - tamanho da fonte */
+.small {
+  font-size: 10px;
+}
+
+.big {
+  font-size: 78px;
+}
