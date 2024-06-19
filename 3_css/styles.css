@@ -306,3 +306,8 @@ h3 {
 .lower {
   text-transform: lowercase;
 }
+
+/* 34 - letter-spacing (espaçamento de letra) */
+.spacing {
+  letter-spacing: 14px;
+}
