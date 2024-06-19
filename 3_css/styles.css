@@ -391,3 +391,124 @@ h3 {
 .invisible {
   display: none;
 }
+
+/* 41 - position static */
+/* É o valor padrão, todo elemento é static. */
+.static {
+  position: static;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #001969;
+  background-color: #391;
+  color: #fff;
+}
+
+/* 42 - position relative */
+/* Normalmente não utilizamos esta regra de posição com relative. As regras "top, left, right e bottom" movem o elemento */
+.relative {
+  position: relative;
+  top: 100px;
+  left: 40px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #001969;
+  background-color: #224;
+  color: #fff;
+}
+
+/* 43 - position absolute */
+/* Com o valor de position com absolute, o elemento pode se mover pela tela toda, quebramos o fluxo html. */
+.absolute {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #001969;
+  background-color: #734;
+  color: #fff;
+}
+
+/* 44 - position relative com absolute */
+/* Um elemento com position absolute é ligado ao elemento mais próximo com posição relativa, se não ele é ligado ao body.
+Com um container com posição relativa, podemos controlar melhor a ação dos elemento com posição absolute */
+.relative-container {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #f00;
+  margin-top: 120px;
+  position: relative;
+}
+
+.absolute-1,
+.absolute-2 {
+  height: 50px;
+  width: 50px;
+  background-color: #422;
+  position: absolute;
+}
+
+.absolute-1 {
+  top: 10px;
+  left: 10px;
+}
+
+.absolute-2 {
+  bottom: 10px;
+  right: 10px;
+}
+
+/* 45 - position fixed */
+/* O elemento fica fixado na tela mesmo após o scroll na página */
+.fixed {
+  height: 100px;
+  width: 100px;
+  background-color: #911;
+  border: 1px solid #00f;
+  position: fixed;
+  top: 50px;
+  right: 100px;
+}
+
+/* 46 - position sticky */
+/* Também faz o elemento ficar fixo na tela, porém quando o elemento volta para a sua posição original, ele se comporta como relative */
+.sticky {
+  height: 100px;
+  width: 100px;
+  background-color: #994;
+  border: 1px solid green;
+  position: sticky;
+  top: 10px;
+}
+
+/* 47 - z-index */
+/* Se tivermos dois elementos com as mesmas posições ou se eles se colidirem na página, podemos escolher qual será exibido.
+O elemento com maior valor prevalece */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+  height: 50px;
+  width: 50px;
+  background-color: #123;
+  position: absolute;
+}
+
+.absolute-3 {
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.absolute-4 {
+  top: 10px;
+  left: 10px;
+  background-color: #246;
+  z-index: 2;
+}
+
+.absolute-5 {
+  top: 40px;
+  left: 40px;
+  background-color: #453;
+  z-index: 1;
+}
